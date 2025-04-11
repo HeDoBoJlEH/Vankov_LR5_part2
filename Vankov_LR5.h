@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int a, b = 0;
+int a, b, res = 0;
 
 // Is string a num?
 bool CanStoi(string& input)
@@ -56,13 +56,15 @@ void EnterB()
 // Function to sum up variables "a" and "b"
 void ExecutePlus()
 {
-    cout << "Sum of a and b: " << a + b << endl;
+    res = a + b;
+    cout << "Sum of a and b: " << res << endl;
 }
 
 // Function to minus variables "a" and "b"
 void ExecuteMinus()
 {
-    cout << "A minus B: " << a - b << endl;
+    res = a - b;
+    cout << "A minus B: " << res << endl;
 }
 
 
